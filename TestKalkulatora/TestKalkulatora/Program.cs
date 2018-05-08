@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestKalkulatora
+namespace Calculator
 {
     class Program
     {
@@ -21,13 +21,13 @@ namespace TestKalkulatora
         }
     }
 
-    internal class ExampleCalculator
+    public class ExampleCalculator
     {
         public ExampleCalculator()
         {
         }
 
-        internal object Add(int x, int y)
+        public int Add(int x, int y)
         {
             return x + y;
         }

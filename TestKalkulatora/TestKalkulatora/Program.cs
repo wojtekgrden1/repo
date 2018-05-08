@@ -10,8 +10,26 @@ namespace TestKalkulatora
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("WItamy na kursie");
-            Console.WriteLine();
+            Console.WriteLine("Witamy na kursie");
+            var x = int.Parse(Console.ReadLine());
+            var y = int.Parse(Console.ReadLine());
+
+            var calc = new ExampleCalculator();
+            var result = calc.Add(x, y);
+
+            Console.WriteLine(result);
+        }
+    }
+
+    internal class ExampleCalculator
+    {
+        public ExampleCalculator()
+        {
+        }
+
+        internal object Add(int x, int y)
+        {
+            return x + y;
         }
     }
 }

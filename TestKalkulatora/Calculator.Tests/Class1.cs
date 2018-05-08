@@ -36,17 +36,22 @@ namespace Calculator.Tests
             // assert
             Assert.Equal(50, result);
         }
-        [Fact]
-        public void division_two_positive_integers()
+        [Theory, 
+            InlineData(20,2,10),
+            InlineData(1.5,2,0.75),
+            InlineData(19, 2, 9.5),
+            InlineData(20, 0, double.PositiveInfinity),
+            InlineData(-20, 0, double.NegativeInfinity),
+            InlineData(0,0,double.NaN)
+            ]
+        public void division_two_positive_integers(double x, double y, double expected)
         {
             // arange
-            var x = 10;
-            var y = 5;
             var calc = new ExampleCalculator();
             // act
             var result = calc.division(x, y);
             // assert
-            Assert.Equal(2, result);
+            Assert.Equal(expected, result);
         }
         [Fact]
         public void subtraction_two_positive_integers()

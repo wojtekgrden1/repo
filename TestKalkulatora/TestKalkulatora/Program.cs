@@ -11,7 +11,9 @@ namespace Calculator
         static void Main(string[] args)
         {
             Console.WriteLine("Witamy na kursie");
+            Console.WriteLine("Podaj zmienna x:");
             var x = int.Parse(Console.ReadLine());
+            Console.WriteLine("Podaj zmienna y:");
             var y = int.Parse(Console.ReadLine());
 
             var calc = new ExampleCalculator();
@@ -26,12 +28,12 @@ namespace Calculator
             var result2 = calc.division(x, y);
             var result3 = calc.reversedivision(x, y);
 
-            Console.WriteLine("Wynik dzielenia zmiennej x / y: {0} Wynik dzielenia zmiennej y / x: {1}", result2, result3);
+            Console.WriteLine("Wynik dzielenia zmiennej x / y: {0}" + Environment.NewLine + "Wynik dzielenia zmiennej y / x: {1}", result2, result3);
 
             var result4 = calc.subtraction(x, y);
             var result5 = calc.reversesubtraction(x, y);
 
-            Console.WriteLine("Wynik odejmowania x - y: {0} Wynik odejmowania y - x: {1}", result4, result5);
+            Console.WriteLine("Wynik odejmowania x - y: {0}" + Environment.NewLine + "Wynik odejmowania y - x: {1}", result4, result5);
 
 
         }

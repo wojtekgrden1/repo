@@ -57,7 +57,6 @@ namespace HelloWeb
             IReadOnlyCollection<IWebElement> comments = browser.FindElements(By.CssSelector("article.comment-body"));
             var largeNumbersQuery = comments.Where(c => c.FindElement(By.TagName("p")).Text.Contains(RandomText));
             Assert.Single(largeNumbersQuery);
-
             System.Threading.Thread.Sleep(3000);
 
         }

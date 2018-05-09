@@ -10,7 +10,7 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Witamy na kursie");
+            Console.WriteLine("Przykładowy kalkulator");
             Console.WriteLine("Podaj zmienna x:");
             var x = int.Parse(Console.ReadLine());
             Console.WriteLine("Podaj zmienna y:");

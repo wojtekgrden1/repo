@@ -19,6 +19,9 @@ namespace HelloWeb
 
             IReadOnlyCollection<IWebElement> entryTitle = _driver.FindElements(By.CssSelector("article[id]"));
             var CheckEntryTitle = entryTitle.Where(c => c.FindElement(By.TagName("a")).Text.Contains(testNote.egNote));
+            var numberOfElements = CheckEntryTitle.Count();
+            //if (numberOfElements == 0) 
+
             Assert.Single(CheckEntryTitle);
 
             var ReplayNote = CheckEntryTitle.First().FindElements(By.CssSelector("[class='entry-content']"));

@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWeb", "HelloWeb\HelloWeb.csproj", "{BFBF8B6C-2BDA-4125-AB95-21D44D7E1422}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PageObjectProject", "PageObjectProject\PageObjectProject.csproj", "{92BA08DC-1FB2-4153-93D2-23F57E67AE8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BFBF8B6C-2BDA-4125-AB95-21D44D7E1422}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFBF8B6C-2BDA-4125-AB95-21D44D7E1422}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFBF8B6C-2BDA-4125-AB95-21D44D7E1422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92BA08DC-1FB2-4153-93D2-23F57E67AE8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92BA08DC-1FB2-4153-93D2-23F57E67AE8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92BA08DC-1FB2-4153-93D2-23F57E67AE8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92BA08DC-1FB2-4153-93D2-23F57E67AE8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

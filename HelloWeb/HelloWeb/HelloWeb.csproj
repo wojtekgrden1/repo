@@ -70,7 +70,9 @@
     <Compile Include="HelloWebWithPageObjectTests.cs" />
     <Compile Include="LoginPage.cs" />
     <Compile Include="Note.cs" />
+    <Compile Include="NotePage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WordPressPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

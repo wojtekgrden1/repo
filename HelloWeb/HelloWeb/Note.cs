@@ -45,7 +45,6 @@ internal class Note
     {
         _driver.FindElement(By.CssSelector("[aria-label*='" + comment.Name + "']")).Click();
 
-
         var Replay = _driver.FindElement(By.CssSelector("[id='comment'][name='comment']"));
         WaitForClickable(Replay, 5);
         Replay.Click();

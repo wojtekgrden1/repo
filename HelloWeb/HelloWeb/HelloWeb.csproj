@@ -63,9 +63,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminPage.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="ExampleComment.cs" />
+    <Compile Include="ExampleNote.cs" />
     <Compile Include="HelloWebWithPageObjectTests.cs" />
+    <Compile Include="LoginPage.cs" />
     <Compile Include="Note.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
